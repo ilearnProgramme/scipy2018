@@ -21,40 +21,40 @@ us moving forward.
 
 ## Abstract
 
-The GMT/Python library (http://www.gmtpython.xyz) has been in development for
+The [GMT/Python library](http://www.gmtpython.xyz) has been in development for
 approximately 1 year. Much of the current design of the library was inspired by
-the feedback that we received following our presentation at Scipy 2017
-(http://www.leouieda.com/blog/gmt-after-scipy2017.html). Since then, we have
-been implementing this design, establishing a solid low-level API on which to
-build the rest of the library, and exploring new ways to interface with the
+the [feedback that we received following our presentation at Scipy
+2017](http://www.leouieda.com/blog/gmt-after-scipy2017.html). Since then, we
+have been implementing this design, establishing a solid low-level API on which
+to build the rest of the library, and exploring new ways to interface with the
 Jupyter notebook. In this talk, we will present the current state of the
 project, including: the design of the low-level wrapper for the GMT C API (the
-"gmt.clib.LibGMT" class); the new object-oriented plotting API (the
-"gmt.Figure" class); the support for numpy arrays and pandas Dataframes; using
+`gmt.clib.LibGMT` class); the new object-oriented plotting API (the
+`gmt.Figure` class); the support for numpy arrays and pandas Dataframes; using
 GMT's built-in topography grids and sample datasets; interactive visualization
-in the Jupyter notebook using the NASA WorldWind Web Javascript library
-(https://worldwind.arc.nasa.gov); and more. An online demo of these features is
-available through the Binder service at http://try.gmtpython.xyz. We will also
-share the lessons learned from using ctypes to build the wrapper and the
-changes that were required in the C API to make the wrapping process as smooth
-as possible when porting to other languages. Finally, we will layout our
+in the Jupyter notebook using the [NASA WorldWind Web Javascript
+library](https://worldwind.arc.nasa.gov); and more. An online demo of these
+features is available through the Binder service at http://try.gmtpython.xyz.
+We will also share the lessons learned from using ctypes to build the wrapper
+and the changes that were required in the C API to make the wrapping process as
+smooth as possible when porting to other languages. Finally, we will layout our
 development plans and solicit feedback and contributions to help guide the
 future of the project.
 
 GMT has an extensive feature set that goes well beyond data visualization. It
 has sophisticated algorithms for processing and interpolating data in Cartesian
 and spherical coordinates that is still unmatched in the Scipy ecosystem. GMT
-is also the basis for specialized software like MB-System for processing and
-visualizing bathymetry and backscatter imagery data derived from multibeam,
-interferometry, and sidescan sonars
-(https://www.mbari.org/products/research-software/mb-system) and GMTSAR for
-processing Interferometric Synthetic-Aperture Radar (InSAR) data
-(http://topex.ucsd.edu/gmtsar). A well designed wrapper for the GMT C API is
-the first step to bring these powerful tools to the Scipy community. The data
-visualization landscape in Python has grown immensely in the past few years
-with the advent of Boheh, Altair, Cartopy, Holoviews, etc. GMT/Python can help
-diversify this ecosystem and bring important lessons learned during the 28+
-years of continuous development of GMT.
+is also the basis for specialized software like
+[MB-System](https://www.mbari.org/products/research-software/mb-system) for
+processing and visualizing bathymetry and backscatter imagery data derived from
+multibeam, interferometry, and sidescan sonars and
+[GMTSAR](http://topex.ucsd.edu/gmtsar) for processing Interferometric
+Synthetic-Aperture Radar (InSAR) data. A well designed wrapper for the GMT C
+API is the first step to bring these powerful tools to the Scipy community. The
+data visualization landscape in Python has grown immensely in the past few
+years with the advent of Boheh, Altair, Cartopy, Holoviews, etc. GMT/Python can
+help diversify this ecosystem and bring important lessons learned during the
+28+ years of continuous development of GMT.
 
 
 ## License

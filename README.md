@@ -4,7 +4,15 @@
 and
 [Paul Wessel](http://www.soest.hawaii.edu/wessel/)
 
-Talk proposal for Scipy 2018.
+Talk at Scipy 2018.
+
+||Info|
+|---:|:---|
+|Time|Friday 2018-07-13 11:00 - 11:30|
+|Room|203|
+|Slides|doi:[TBD](https://doi.org/)|
+|Project website|[gmtpython.xyz](http://gmtpython.xyz/)|
+|Demo|[TBD](...)|
 
 
 ## Short summary
@@ -68,3 +76,11 @@ href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution
 
 All source code is distributed under the [BSD 3-clause
 License](https://opensource.org/licenses/BSD-3-Clause).
+
+
+## Funding
+
+This project is supported by grant
+[OCE-1558403](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1558403) from the US
+[National Science Foundation](https://www.nsf.gov/).
+

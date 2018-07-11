@@ -1,0 +1,16 @@
+name: scipy2018
+channels:
+    - conda-forge
+    - conda-forge/label/dev
+dependencies:
+    - python=3.6
+    - pip
+    - numpy
+    - pandas
+    - xarray
+    - packaging
+    - ipython
+    - jupyter
+    - gmt=6.0.0a16
+    - pip:
+        - https://github.com/GenericMappingTools/gmt-python/archive/0005152780528c7248369fb1446a9670383f2b19.zip

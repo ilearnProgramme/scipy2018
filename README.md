@@ -10,9 +10,10 @@ Talk at Scipy 2018.
 |---:|:---|
 |Time|Friday 2018-07-13 11:00 - 11:30|
 |Room|203|
-|Slides|doi:[TBD](https://doi.org/)|
+|Slides|doi:[10.6084/m9.figshare.6814052](https://doi.org/10.6084/m9.figshare.6814052)|
 |Project website|[gmtpython.xyz](http://gmtpython.xyz/)|
-|Demo|[TBD](...)|
+|Demo|[try.gmtpython.xyz](http://try.gmtpython.xyz/)|
+|Recoding|[TBD]()|
 
 
 ## Short summary

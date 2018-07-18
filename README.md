@@ -13,7 +13,7 @@ Talk at Scipy 2018.
 |Slides|doi:[10.6084/m9.figshare.6814052](https://doi.org/10.6084/m9.figshare.6814052)|
 |Project website|[gmtpython.xyz](http://gmtpython.xyz/)|
 |Demo|[try.gmtpython.xyz](http://try.gmtpython.xyz/)|
-|Recoding|[TBD]()|
+|Recoding|[youtu.be/6wMtfZXfTRM](https://youtu.be/6wMtfZXfTRM)|
 
 
 ## Short summary
